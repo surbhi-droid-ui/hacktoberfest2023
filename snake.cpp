@@ -32,8 +32,7 @@ namespace Snake
 
 	// Checking for Columns for X or O victory. 
 	for (int col = 0; col < 3; col++) { 
-		if (b[0][col] == b[1][col] 
-			&& b[1][col] == b[2][col]) { 
+		
 			if (b[0][col] == player) 
 				return +10; 
 
@@ -60,8 +59,7 @@ namespace Snake
 				return -10; 
 		} 
 	} 
-
-	// Checking for Columns for X or O victory. 
+umns for X or O victory. 
 	for (int col = 0; col < 3; col++) { 
 		if (b[0][col] == b[1][col] 
 			&& b[1][col] == b[2][col]) { 
