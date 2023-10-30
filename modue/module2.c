@@ -43,7 +43,7 @@ int evaluate(char b[3][3])
 	} 
 
 	// Checking for Columns for X or O victory. 
-	for (int col = 0; col < 3; col++) { 
+	//wrong
 		if (b[0][col] == b[1][col] 
 			&& b[1][col] == b[2][col]) { 
 			if (b[0][col] == player) 
