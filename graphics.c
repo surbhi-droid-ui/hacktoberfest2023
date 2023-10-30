@@ -9,7 +9,7 @@
 #include <dos.h>
 #include <graphics.h>
 #include <math.h>
-#include <stdio.h>
+
 
 // Function to manipulates the position
 // of planets on the orbit
