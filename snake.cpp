@@ -16,7 +16,7 @@ namespace Snake
             Console.WindowWidth = 32;
             int screenwidth = Console.WindowWidth;
             int screenheight = Console.WindowHeight;
-            Random randomnummer = new Random();
+            //unwanted code removed
             int score = 5;
             int gameover = 0;
             pixel hoofd = new pixel();
